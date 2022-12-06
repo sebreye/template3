@@ -10,6 +10,8 @@ nav
         list-style: none
         li
             margin: 10px
+.titre
+    padding: 10px
 .sect1
     text-align: center
     background-color: blue
@@ -25,3 +27,38 @@ nav
     border-bottom-right-radius: 50px
     border: none
     background-color: #f7076f
+.sect-img
+    display: flex
+    justify-content: space-evenly
+    margin: 15vh
+.modif-media
+    display: flex
+    justify-content: space-evenly
+    margin: 15vh
+.img-sect
+    border-radius: 50%
+.para-sect
+    width: 400px
+footer
+    display: flex
+    justify-content: center
+    background-color: #000
+    color: white
+@media only screen and (max-width: 376px)
+    .sect-img
+        display: flex
+        flex-direction: column
+        margin: 0vh
+    .modif-media
+        display: flex
+        flex-direction: column-reverse
+        margin: 0vh
+
+    .img-sect
+        margin-left: 18vw
+    .para-sect
+        width: 250px
+        margin-left: 18vw
+    
+        
+
